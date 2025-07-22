@@ -13,13 +13,13 @@
     />
     <title>Document</title>
   </head>
-  <body>
-    <div class="container w-7xl mx-auto">
+  <body class="overflow-x-hidden">
+    <div class="mx-auto w-full sm:w-[640px] xl:w-[1280px]">
       <header>
-        <nav class="flex justify-between my-4">
+        <nav class="flex flex-wrap justify-between  my-4">
           <img src="./images/logo2.png" alt="" />
           <div>
-            <ul class="flex space-x-4 pt-4">
+            <ul class="flex pt-4 xl:space-x-4 sm:space-x-0">
               <li>Home</li>
               <li>Service ></li>
               <li>Case ></li>
@@ -34,10 +34,10 @@
           </button>
         </nav>
         <div
-          class="w-3xl h-96 border-2 rounded-[5px] mx-auto my-20 bg-[url('./images/banner.png')] bg-cover bg-center"
+          class="w-full sm:w-full xl:w-3xl h-96 border-2 rounded-[5px] mx-auto my-20 bg-[url('./images/banner.png')] bg-cover bg-center"
         >
-          <div class="w-2xl mx-auto text-center mt-20 text-white">
-            <h1 class="text-5xl">We Provide Effective <br />Legal Solutions</h1>
+          <div class="w-full xl:w-2xl mx-auto text-center mt-20 text-white">
+            <h1 class="sm:text-3xl xl:text-5xl">We Provide Effective <br />Legal Solutions</h1>
             <p class="text-1xl mt-4">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
@@ -46,7 +46,7 @@
             <input
               type="search"
               id="default-search"
-              class="mt-7 w-md p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 placeholder-gray-400"
+              class="sm:w-fit  mt-7 xl:w-md p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 placeholder-gray-400"
               placeholder="Search your services ..."
               required
             />
@@ -58,16 +58,16 @@
           </div>
         </div>
       </header>
-      <main class="mt-40">
+      <main class="overflow-x-hidden mt-40">
         <div class="mx-auto text-center mb-10">
-          <h1 class="text-5xl">The Legal Practice Area</h1>
-          <p class="text-1xl mt-4">
+          <h1 class="sm:text-3xl sm:w-full xl:text-5xl">The Legal Practice Area</h1>
+          <p class="sm:w-full text-1xl mt-4">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have <br />
             suffered alteration in some form, by injected humour.
           </p>
         </div>
-        <div class="grid grid-cols-3 gap-0">
+        <div class="grid gap-0 xl:grid-cols-3 sm:grid-cols-2">
           <div class="w-full h-80 flex justify-center items-center border-b">
             <div class="h-64 w-56 text-center">
               <img class="mx-auto" src="./images/business.png" alt="" />
@@ -164,7 +164,7 @@
             </div>
           </div>
         </div>
-        <div class="mx-auto text-center mt-40">
+        <div class="hidden mx-auto text-center mt-40">
           <h1 class="text-5xl">Frequently Asked Question</h1>
           <p class="text-1xl mt-4">
             There are many variations of passages of Lorem Ipsum available, but
@@ -173,7 +173,7 @@
           </p>
         </div>
         <div class="w-6xl h-[500px] mx-auto flex mt-20 gap-3">
-          <div class="flex-1/3 h-full">
+          <div class="hidden flex-1/3 h-full">
             <div class="h-32 bg-[rgb(243,243,243)] text-center rounded-2xl">
               <h1 class="text-base font-bold pt-2">
                 1.Are application fee waivers available?-
@@ -206,9 +206,9 @@
               </h1>
             </div>
           </div>
-          <img class="h-full flex-1/3" src="./images/faq.png" alt="" />
+          <img class="hidden h-full flex-1/3" src="./images/faq.png" alt="" />
         </div>
-        <div class="mx-auto mt-40 text-center">
+        <div class="hidden mx-auto mt-40 text-center">
           <h1 class="text-2xl font-bold">Contact With Us</h1>
           <p class="w-2xl mx-auto text-gray-600 mt-4">
             There are many variations of passages of Lorem Ipsum available, but
@@ -217,7 +217,7 @@
           </p>
         </div>
 
-        <div class="w-4xl mt-12 h-96 mx-auto flex gap-7">
+        <div class="hidden w-4xl mt-12 h-96 mx-auto flex gap-7">
           <div class="grid grid-cols-2 grid-rows-2 flex-1/2">
             <div class="text-center bg-[rgb(243,243,243)]">
               <img class="mx-auto my-6" src="./images/location.png" alt="" />
@@ -273,7 +273,7 @@
           </div>
         </div>
       </main>
-      <footer class="mt-40">
+      <footer class="mt-40 hidden">
         <div class="w-full h-80 bg-gray-900 flex justify-around items-center">
           <div class="w-56 h-72 mt-6">
             <div class="text-center">
