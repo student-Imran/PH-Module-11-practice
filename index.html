@@ -11,15 +11,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Document</title>
+    <title>Tailwind-Css</title>
   </head>
   <body class="overflow-x-hidden">
     <div class="mx-auto w-full sm:w-[640px] xl:w-[1280px]">
-      <header>
-        <nav class="flex flex-wrap justify-between  my-4">
+      <header class="sm:pl-5 sm:pr-5">
+        <nav class="flex flex-wrap justify-between my-4">
           <img src="./images/logo2.png" alt="" />
           <div>
-            <ul class="flex pt-4 xl:space-x-4 sm:space-x-0">
+            <ul class="flex pt-4 xl:space-x-4 sm:space-x-3">
               <li>Home</li>
               <li>Service ></li>
               <li>Case ></li>
@@ -28,16 +28,18 @@
             </ul>
           </div>
           <button
-            class="bg-amber-700 cursor-pointer px-4 py-1 text-amber-50 rounded-2xl"
+            class="bg-amber-700 cursor-pointer px-4 py-1 text-amber-50 rounded-2xl sm:mx-auto sm:mt-3 xl:mx-0 sm:mt-0"
           >
             Free Construction
           </button>
         </nav>
         <div
-          class="w-full sm:w-full xl:w-3xl h-96 border-2 rounded-[5px] mx-auto my-20 bg-[url('./images/banner.png')] bg-cover bg-center"
+          class="w-full sm:w-full xl:w-3xl h-96 rounded-[5px] mx-auto my-20 bg-[url('./images/banner.png')] bg-cover bg-center "
         >
           <div class="w-full xl:w-2xl mx-auto text-center mt-20 text-white">
-            <h1 class="sm:text-3xl xl:text-5xl">We Provide Effective <br />Legal Solutions</h1>
+            <h1 class="sm:text-3xl xl:text-5xl xl:pt-7 sm:pt-7">
+              We Provide Effective <br />Legal Solutions
+            </h1>
             <p class="text-1xl mt-4">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
@@ -46,7 +48,7 @@
             <input
               type="search"
               id="default-search"
-              class="sm:w-fit  mt-7 xl:w-md p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 placeholder-gray-400"
+              class="sm:w-fit mt-7 xl:w-md p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 placeholder-gray-400"
               placeholder="Search your services ..."
               required
             />
@@ -60,7 +62,9 @@
       </header>
       <main class="overflow-x-hidden mt-40">
         <div class="mx-auto text-center mb-10">
-          <h1 class="sm:text-3xl sm:w-full xl:text-5xl">The Legal Practice Area</h1>
+          <h1 class="sm:text-3xl sm:w-full xl:text-5xl">
+            The Legal Practice Area
+          </h1>
           <p class="sm:w-full text-1xl mt-4">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have <br />
@@ -68,7 +72,7 @@
           </p>
         </div>
         <div class="grid gap-0 xl:grid-cols-3 sm:grid-cols-2">
-          <div class="w-full h-80 flex justify-center items-center border-b">
+          <div class="w-full h-80 flex justify-center items-center xl:border-b">
             <div class="h-64 w-56 text-center">
               <img class="mx-auto" src="./images/business.png" alt="" />
               <h1 class="font-bold text-3xl">Business Law</h1>
@@ -84,7 +88,7 @@
             </div>
           </div>
           <div
-            class="bg-[linear-gradient(180deg,_rgb(243,243,243),_rgba(243,243,243,0)_100%)] w-full h-80 flex justify-center items-center border"
+            class="xl:bg-[linear-gradient(180deg,_rgb(243,243,243),_rgba(243,243,243,0)_100%)] w-full h-80 flex justify-center items-center xl:border"
           >
             <div class="h-64 w-56 text-center">
               <img class="mx-auto" src="./images/education.png" alt="" />
@@ -101,7 +105,7 @@
             </div>
           </div>
 
-          <div class="w-full h-80 flex justify-center items-center border-b">
+          <div class="w-full h-80 flex justify-center items-center xl:border-b">
             <div class="h-64 w-56 text-center">
               <img class="mx-auto" src="./images/child.png" alt="" />
               <h1 class="font-bold text-3xl">Business Law</h1>
@@ -132,7 +136,7 @@
             </div>
           </div>
           <div
-            class="w-full h-80 flex justify-center items-center border-l border-r"
+            class="w-full h-80 flex justify-center items-center xl:border-l xl:border-r"
           >
             <div class="h-64 w-56 text-center">
               <img class="mx-auto" src="./images/tax.png" alt="" />
@@ -164,16 +168,18 @@
             </div>
           </div>
         </div>
-        <div class="hidden mx-auto text-center mt-40">
-          <h1 class="text-5xl">Frequently Asked Question</h1>
+        <div class="mx-auto text-center mt-40 sm:w-full">
+          <h1 class="sm:text-3xl xl:text-5xl">Frequently Asked Question</h1>
           <p class="text-1xl mt-4">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have <br />suffered alteration in some form, by
             injected humour.
           </p>
         </div>
-        <div class="w-6xl h-[500px] mx-auto flex mt-20 gap-3">
-          <div class="hidden flex-1/3 h-full">
+        <div
+          class="mb-20 sm:mb-14 sm:block sm:w-full xl:w-6xl h-[500px] mx-auto xl:flex mt-20 xl:gap-3 xl:h-auto sm:h-auto sm:gap-4"
+        >
+          <div class="flex-1/3 h-full sm:pl-5 sm:pr-5 sm:pb-3">
             <div class="h-32 bg-[rgb(243,243,243)] text-center rounded-2xl">
               <h1 class="text-base font-bold pt-2">
                 1.Are application fee waivers available?-
@@ -206,18 +212,22 @@
               </h1>
             </div>
           </div>
-          <img class="hidden h-full flex-1/3" src="./images/faq.png" alt="" />
+          <img
+            class="h-full flex-1/3 sm:w-full sm:pl-2 sm:pr-2"
+            src="./images/faq.png"
+            alt=""
+          />
         </div>
-        <div class="hidden mx-auto mt-40 text-center">
+        <div class="h-auto  mt-20 mx-auto text-center xl:mt-40 sm:mt-32 sm:w-full sm:mb-3">
           <h1 class="text-2xl font-bold">Contact With Us</h1>
-          <p class="w-2xl mx-auto text-gray-600 mt-4">
+          <p class="xl:w-2xl mx-auto text-gray-600 mt-4 sm:w-full">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour.
           </p>
         </div>
 
-        <div class="hidden w-4xl mt-12 h-96 mx-auto flex gap-7">
+        <div class="xl:mx-auto xl:gap-7 xl:w-4xl xl:mt-12 xl:h-auto xl:flex sm:block sm:w-full sm:pl-5 sm:pr-5 sm:h-auto">
           <div class="grid grid-cols-2 grid-rows-2 flex-1/2">
             <div class="text-center bg-[rgb(243,243,243)]">
               <img class="mx-auto my-6" src="./images/location.png" alt="" />
@@ -273,8 +283,8 @@
           </div>
         </div>
       </main>
-      <footer class="mt-40 hidden">
-        <div class="w-full h-80 bg-gray-900 flex justify-around items-center">
+      <footer class="mt-40">
+        <div class="xl:w-full xl:flex-wrap xl:h-auto bg-gray-900 xl:flex xl:justify-around xl:items-center sm:flex sm:justify-around sm:flex-wrap">
           <div class="w-56 h-72 mt-6">
             <div class="text-center">
               <img class="mx-auto" src="./images/logo.png" alt="" />
